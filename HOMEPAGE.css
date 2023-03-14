@@ -1,0 +1,52 @@
+body,html
+{
+    background-image: url("https://www.linkpicture.com/q/460880.jpg");
+    height: 100%;
+    margin: 0;
+    background-size: contain;
+}
+.nav
+{
+    background-color: black;
+    height: 100%;
+    top: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    transition: 0.5s;
+    overflow-x: hidden;
+    box-shadow: -0.5cm -0.05cm 0.8cm white;
+}
+.nav .navchild
+{
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+    color: #7b7b7b;
+    padding: 10% 8px 8px 32px;
+}
+.nav .navchild:hover
+{
+    color: red;
+}
+.nav .closenav
+{
+    position: absolute;
+    top: 1%;
+    font-size: 30px;
+    right: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: red;
+}
+#main 
+{
+    transition: margin-left .5s;
+    padding: 20px;
+    color: white;
+}  
+h1
+{
+    margin-left: 200px;
+}
