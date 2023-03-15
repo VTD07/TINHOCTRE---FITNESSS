@@ -10,24 +10,39 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@300;400&family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="sidenav" class="nav">
-            <div class="navchild1">
-                <a href="#" class="childchild1"><i class="fa-light fa-square-list"></i>MENU</a>
-                <a href="#" class="childchild1">WORKOUT</a>
-                <a href="#" class="childchild1">MEAL PLAN</a>
-                <a href="#" class="childchild1">SCHEDULE</a>        
+            <div class="navcontent">
+                <a href="#" class="contentchild"><iconify-icon icon="healthicons:ui-menu-grid-outline" width="48" height="48"></iconify-icon></iconify-icon>MENU</a>
+                <a href=""></a>
             </div>
         </div>
         <div id="main">   
-            <div class="menucontain" onclick="menuFuction(this);Menulist()">
+            <div class="menucontain" onclick="Menulist();menuFuction(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
+            <div class="userwelcome">
+                <h2 style="color:#7b7b7b;font-size: 30px;font-weight: 600;">WELCOME</h2>
+                <h1 style="color:#FFFFFF;font-size: 45px;font-weight: 700;;margin-top: -1%;">THANH NGUYEN!</h1>
+            </div>
+            <div class="content1">
+                <p style="color:#FFFFFF;font-size: 80px;font-weight: 700;transform: skew(-6deg);">Fitness for a better life</p>
+                <p style="margin-left: 5%;font-size: 30px;margin-top: -15%;color:#7b7b7b;">70% Food 30% Workout</p>
+            </div>
+            <div class="content2">
+                <button class="butt" onclick="window.location='https://www.example.com';">START BUILDING YOUR BODY</button>
+                <p style="margin-top: 2%;font-size: 20px;font-family: 'Nunito', sans-serif;font-family: 'Raleway', sans-serif;">DON'T HAVE ANY ACCOUNT? <a href="#" style="color: white">REGISTER</a></p>
+            </div>
+            <div class="container">
+
+            </div>
         </div>
-    <script src="HOMEPAGE.js"></script>    
-    </body>
+    <script src="HOMEPAGE.js"></script>   
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+</body>
 </html>
