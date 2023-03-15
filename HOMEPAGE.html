@@ -7,18 +7,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> FITNESS </title>
         <link rel="stylesheet" href="HOMEPAGE.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Raleway:wght@100;200;400&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="sidenav" class="nav">
-        <a href="javascript:void(0)" class="closenav" onclick="closeNav()">&times;</a>
-        <a href="#" class="navchild">MENU</a>
-        <a href="#" class="navchild">WORKOUT</a>
-        <a href="#" class="navchild">MEAL PLAN</a>
-        <a href="#" class="navchild">SCHEDULE</a>
+            <div class="navchild1">
+                <a href="#" class="childchild1"><i class="fa-light fa-square-list"></i>MENU</a>
+                <a href="#" class="childchild1">WORKOUT</a>
+                <a href="#" class="childchild1">MEAL PLAN</a>
+                <a href="#" class="childchild1">SCHEDULE</a>        
+            </div>
         </div>
         <div id="main">   
-            <span style="font-size:30px;cursor:pointer" id="open" onclick="openNav()">&#9776;</span>
-            <h1> WELCOME </h1>
+            <div class="menucontain" onclick="menuFuction(this);Menulist()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
     <script src="HOMEPAGE.js"></script>    
     </body>
