@@ -66,8 +66,8 @@ body,html
 .content2
 {
     display: block;
-    margin-top: 8%;
-    margin-left: 10%;
+    padding-top: 8%;
+    padding-left: 10%;
 }
 .butt
 {
@@ -116,4 +116,20 @@ body,html
 {
     color: #7b7b7b;
     position: absolute;
+}
+.container2
+{
+    display: flex;
+    justify-content: right;
+    column-gap: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.userfaq
+{
+    color: #7b7b7b;
+    font-size: 20px;
+    text-decoration: none;
 }
