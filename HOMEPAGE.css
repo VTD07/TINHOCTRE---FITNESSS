@@ -7,21 +7,18 @@ body,html
     background-size: cover;
     background-position: center;
 }
+.container
+{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
 .logo
 {
-    position: absolute;
     width: 98px;
     height: 76px;
-    left: 31px;
-    top: 25px;
-}
-.container1
-{
-    position: absolute;
-    width: 397px;
-    height: 75px;
-    left: 140px;
-    top: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .contcontent1
 {
@@ -32,7 +29,6 @@ body,html
 }
 .container2
 {
-    position: absolute;
     width: 564px;
     height: 163px;
     left: 57px;
@@ -44,23 +40,25 @@ body,html
     font-size: 37px;
     line-height: 45px;
 }
+.container3
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 100%;
+}
 .appstore1
 {
-    position: absolute;
     width: 296px;
     height: 86px;
     left: 57px;
     top: 558px;
-    padding-bottom: 100px;
 }
 .appstore2
 {
-    position: absolute;
     width: 296px;
     height: 86px;
     left: 57px;
     top: 558px;
-    padding-top: 90px;
 }
 .butt
 {
