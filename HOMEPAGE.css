@@ -12,13 +12,13 @@ body,html
     display: flex;
     align-items: center;
     column-gap: 20px;
+    margin-top: 20px;
 }
 .logo
 {
     width: 98px;
     height: 76px;
     margin-left: 20px;
-    margin-top: 20px;
 }
 .contcontent1
 {
@@ -34,41 +34,84 @@ body,html
     left: 57px;
     top: 184px;
 }
+.container2
+{
+    margin-top: 130px;
+    margin-left: 57px;
+}
 .contcontent2
 {
     font-weight: 700;
     font-size: 37px;
     line-height: 45px;
+    margin-left: 57px;
+}
+.socialmedia
+{
+    padding-top: 2%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+.insta
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+.ytb
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+    margin-left: 5%;
 }
 .container3
 {
     display: flex;
     flex-direction: column;
     row-gap: 100%;
+    margin-left: 20px;
 }
 .appstore1
 {
     width: 296px;
     height: 86px;
-    left: 57px;
-    top: 558px;
-}
-.appstore2
-{
-    width: 296px;
-    height: 86px;
-    left: 57px;
-    top: 558px;
+    margin-left: 57px;
+    padding-top: 100px;
 }
 .butt
 {
+    display: flex;
+    width: 282px;
+    height: 86px;
     background: #000000;
     border-radius: 15px;
+    border-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    align-items: center;
 }
 .buttcontent
 {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+}
+.contentcontainer
+{
+    display: flex;
+    flex-direction: row;
+    row-gap: 100px;
+}
+.text
+{
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    text-align: left;
 }
