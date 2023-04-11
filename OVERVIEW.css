@@ -50,6 +50,17 @@
     align-items: center;
     justify-content: center;
 }
+.bigmg1
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    width: 1200px;
+    height: 600px;
+    filter: drop-shadow(0px 4px 40px rgba(255, 255, 255, 0.18));
+    border-radius: 30px;
+    background-image: url('overview1.jpg');
+}
 .bigimg1
 {
     position: relative;
@@ -60,15 +71,25 @@
 }
 .container1
 {
-    position: absolute;
     width: 290px;
     height: 180.25px;
-    padding-left: 50px;
-    font-style: italic;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 61px;
-    color: rgba(255, 255, 255, 0.87);
+    padding-left: 102px;
+    padding-top: 200px;
+}
+.downbox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 5px;
+    width: 200px;
+    height: 70px;
+    margin-left: 130px;
+    top: 593px;
+    background: #AEF21D;
+    box-shadow: 0px 4px 100px rgba(174, 242, 29, 0.53);
+    border-radius: 30px;
 }
 .container2
 {
@@ -91,6 +112,7 @@
     justify-content: center;
     flex-direction: row;
     column-gap: 50px;
+    
 }
 .box1content1
 {
