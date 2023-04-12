@@ -1,0 +1,44 @@
+.body,html
+{
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.8) 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navcontainer
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 80px;
+    height: 69.32px;
+}
+.butt
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+.spbutt
+{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:rgba(188, 249, 15, 1);
+    color: #000000;
+}
