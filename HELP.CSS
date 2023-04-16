@@ -6,6 +6,8 @@
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .navcontainer
 {
@@ -41,4 +43,20 @@
     border-radius: 20px;
     background-color:rgba(188, 249, 15, 1);
     color: #000000;
+}
+.content1
+{
+    margin-left: 82px;
+    margin-top: 190px;
+}
+.gach
+{
+    width: 80%;
+}
+.row1
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
 }
