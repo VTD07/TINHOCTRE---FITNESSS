@@ -1,0 +1,220 @@
+.body,html
+{
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.8) 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.navcontainer
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+    width: 80px;
+    height: 69.32px;
+}
+.butt
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+.spbutt
+{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    background: #DFF995;
+    box-shadow: 0px 4px 250px rgba(188, 249, 15, 0.42);
+    border-radius: 30px;
+    color: black;
+}
+.contain
+{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.bigcontain
+{
+    width: 1500px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 120px;
+    background: #2F2F2F;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.content1
+{
+    width: 166px;
+    height: 150px;
+}
+.content1 p-1
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.content1 p-2
+{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.content2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content2child1
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+.box1
+{
+    padding-top: 25px;
+    width: 400px;
+    height: 190px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.box1child1
+{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.box1child2
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.android
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.android p-1
+{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+.butt1
+{
+    width: 130px;
+    height: 40px;
+    background: #AEF21D;
+    box-shadow: 0px 4px 10px rgba(105, 150, 11, 0.4);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butt1 p-1
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12px;
+}
+.content2child2
+{
+    width: 800px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.content2child2 p-2
+{
+    margin: 16px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.ended
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-top: 10%;
+}
+.row1
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.logocolumn
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.socialmedia
+{
+    width: 50px;
+    height: 50px;
+}
+.logo2
+{
+    width: 120px;
+    height: 100px;
+}
+.row2
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.row2child
+{
+    display: flex;
+    flex-direction: column;
+}
