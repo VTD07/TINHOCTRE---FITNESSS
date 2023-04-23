@@ -138,9 +138,6 @@
 }
 .logo2
 {
-    display: flex;
-    justify-content: first baseline;
-    align-items: center;
     width: 120px;
     height: 100px;
 }
@@ -166,6 +163,10 @@
 }
 /*   RESPONSIVE   */
 @media screen and (max-width: 1024px) {
+    .content1
+    {
+        margin-left: 40px;
+    }
     .socialmedia
     {
         width: 40px;
