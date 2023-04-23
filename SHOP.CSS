@@ -50,13 +50,12 @@
 }
 .break
 {
-    margin-top: 45px;
-    margin-bottom: 45px;
-    margin-left: 156px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     display: flex;
     flex-direction: row;
     column-gap: 50px;
-    justify-content: space-between center;
+    justify-content: center;
     align-items: center;
 }
 .gach
@@ -67,12 +66,13 @@
 }
 .container2
 {
-    margin-left: 140px;
     padding-top: 15px;
     display: flex;
-    flex-direction: row;
     column-gap: 60px;
+    row-gap: 25px;
     align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 .box1
 {
@@ -89,10 +89,11 @@
     position: relative;
     margin-top: 100px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     column-gap: 100px;
+    row-gap: 15px;
     align-items: center;
+    flex-flow: row wrap;
 }
 .warper
 {
@@ -176,7 +177,7 @@
 {
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 5px;
 }
 .logo2
 {
@@ -193,4 +194,37 @@
 {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+}
+.row2child p-1
+{
+    font-style: normal;font-weight: 600;font-size: 20px;line-height: 24px;color: #BCF90F;
+}
+.row2child p-2
+{
+    font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #878787;
+}
+/*   RESPONSIVE   */
+@media screen and (max-width: 1024px) {
+    .content1
+    {
+        margin-left: 40px;
+    }
+    .socialmedia
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .row2
+    {
+        column-gap: 19px;
+    }
+    .row2child p-1 
+    {
+        font-size: 16px;
+    }
+    .row2child p-2 
+    {
+        font-size: 14px;
+    }
 }

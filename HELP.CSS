@@ -48,6 +48,7 @@
 {
     margin-left: 82px;
     margin-top: 190px;
+    text-align: left;
 }
 .gach
 {
@@ -61,8 +62,9 @@
 {
     padding-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     column-gap: 20px;
+    row-gap: 20px;
     justify-content: space-evenly;
 }
 .box1
@@ -115,7 +117,12 @@
     column-gap: 20px;
     padding-top: 20%;
 }
-.row3
+.socialmedia
+{
+    width: 50px;
+    height: 50px;
+}
+.row11
 {
     display: flex;
     flex-direction: column;
@@ -123,19 +130,17 @@
     justify-content: center;
     align-items: center;
 }
-.socialmedia
-{
-    width: 50px;
-    height: 50px;
-}
 .logocolumn
 {
     display: flex;
     flex-direction: row;
-    column-gap: 50px;
+    column-gap: 5px;
 }
 .logo2
 {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
     width: 120px;
     height: 100px;
 }
@@ -149,4 +154,33 @@
 {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+}
+.row2child p-1
+{
+    font-style: normal;font-weight: 600;font-size: 20px;line-height: 24px;color: #BCF90F;
+}
+.row2child p-2
+{
+    font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;color: #878787;
+}
+/*   RESPONSIVE   */
+@media screen and (max-width: 1024px) {
+    .socialmedia
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .row2
+    {
+        column-gap: 19px;
+    }
+    .row2child p-1 
+    {
+        font-size: 16px;
+    }
+    .row2child p-2 
+    {
+        font-size: 14px;
+    }
 }
